@@ -22,8 +22,10 @@ def parse_yaml(progress: Progress, file_name: Path):
             out_file = Path(f"{CSV_OUTPUT}/{file_name.stem}.csv")
             task = progress.add_task(str(out_file), total=len(data) + 1)
             for item in data:
-                columns = columns.union(set(item.keys()))
-                rows_to_write.append({key: item[key] for key in columns if key in item})
+                columns = columns.union(set(map(lambda x: x.lower(), item.keys())))
+                rows_to_write.append(
+                    {key.lower(): value for key, value in item.items()}
+                )
                 progress.advance(task)
 
             with open(out_file, "w", newline="") as csvfile:
