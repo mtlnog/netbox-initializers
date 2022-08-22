@@ -1,0 +1,5 @@
+name,parent,slug
+Datacenters,,datacenters
+Vantage Datacenters,Datacenters,vantage-datacenters
+Cologix Datacenters,Datacenters,cologix-datacenters
+eStruxture Datacenters,Datacenters,eStruxture-datacenters

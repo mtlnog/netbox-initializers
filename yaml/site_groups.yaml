@@ -1,0 +1,12 @@
+---
+- name: Datacenters
+  slug: datacenters
+- name: Vantage Datacenters
+  slug: vantage-datacenters
+  parent: Datacenters
+- name: Cologix Datacenters
+  slug: cologix-datacenters
+  parent: Datacenters
+- name: eStruxture Datacenters
+  slug: eStruxture-datacenters
+  parent: Datacenters
