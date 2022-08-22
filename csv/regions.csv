@@ -1,0 +1,9 @@
+name,parent,slug
+Canada,,canada
+Province of Brittish Columbia,Canada,BC
+City of Vancouver,Provice of Brittish Columbia,VAN
+Provice of Ontario,Canada,True
+City of Toronto,Provice of Ontario,toronto
+Province of Quebec,Canada,QC
+City of Montreal,Province of Quebec,mtl
+Quebec City,Province of Quebec,quebec-city
