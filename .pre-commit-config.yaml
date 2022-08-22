@@ -1,0 +1,21 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/psf/black
+    rev: 22.6.0
+    hooks:
+      - id: black
+  - repo: local
+    hooks:
+      - id: build_csv_files
+        name: build-csv-files
+        additional_dependencies:
+          - pyaml
+          - rich
+        entry: ./build_csv_files.py
+        language: python
+        pass_filenames: false

@@ -1,2 +1,4 @@
+black==22.6.0
+pre-commit==2.20.0
 PyYAML==6.0
 rich==12.5.1

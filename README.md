@@ -17,3 +17,7 @@ The csv files are built from git hooks but this may be useful for local generati
     ```
     venv~> ./build_csv_files.py
     ```
+
+## Pre-commit
+
+Run `pre-commit install` to install pre-commit into your git hooks. pre-commit will now run on every commit.
