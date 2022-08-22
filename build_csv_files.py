@@ -27,7 +27,7 @@ def parse_yaml(progress: Progress, file_name: Path):
                 progress.advance(task)
 
             with open(out_file, "w", newline="") as csvfile:
-                csv_writer = csv.DictWriter(csvfile, columns)
+                csv_writer = csv.DictWriter(csvfile, sorted(columns))
                 csv_writer.writeheader()
                 csv_writer.writerows(rows_to_write)
             progress.advance(task)
