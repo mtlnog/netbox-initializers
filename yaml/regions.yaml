@@ -1,24 +1,24 @@
 ---
-- Name: Canada
-  Slug: canada
-- Name: Province of Brittish Columbia
-  Slug: BC
-  Parent: Canada
-- Name: City of Vancouver
-  Slug: VAN
-  Parent: Provice of Brittish Columbia
-- Name: Provice of Ontario
-  Slug: ON
-  Parent: Canada
-- Name: City of Toronto
-  Slug: toronto
-  Parent: Provice of Ontario
-- Name: Province of Quebec
-  Slug: QC
-  Parent: Canada
-- Name: City of Montreal
-  Slug: mtl
-  Parent: Province of Quebec
-- Name: Quebec City
-  Slug: quebec-city
-  Parent: Province of Quebec
+- name: Canada
+  slug: canada
+- name: Province of Brittish Columbia
+  slug: BC
+  parent: Canada
+- name: City of Vancouver
+  slug: VAN
+  parent: Provice of Brittish Columbia
+- name: Provice of Ontario
+  slug: ON
+  parent: Canada
+- name: City of Toronto
+  slug: toronto
+  parent: Provice of Ontario
+- name: Province of Quebec
+  slug: QC
+  parent: Canada
+- name: City of Montreal
+  slug: mtl
+  parent: Province of Quebec
+- name: Quebec City
+  slug: quebec-city
+  parent: Province of Quebec
