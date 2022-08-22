@@ -21,3 +21,7 @@ The csv files are built from git hooks but this may be useful for local generati
 ## Pre-commit
 
 Run `pre-commit install` to install pre-commit into your git hooks. pre-commit will now run on every commit.
+
+If you want to manually run all pre-commit hooks on a repository, run `pre-commit run --all-files`. To run individual hooks use pre-commit run <hook_id>.
+
+The first time pre-commit runs on a file it will automatically download, install, and run the hook. Note that running a hook for the first time may be slow. For example: If the machine does not have a specific python package installed, pre-commit will download and install it.
